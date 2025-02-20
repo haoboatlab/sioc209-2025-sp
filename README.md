@@ -10,11 +10,11 @@ If you'd like to develop and/or build the Machine Learning for Geo and Environme
 
 1. Clone this repository
 2. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-3. (Optional) Edit the books source files located in the `sioc209-2024-sp/` directory
-4. Run `jupyter-book clean sioc209-2024-sp/` to remove any existing builds
-5. Run `jupyter-book build sioc209-2024-sp/`
+3. (Optional) Edit the books source files located in the `sioc209-2025-sp/` directory
+4. Run `jupyter-book clean sioc209-2025-sp/` to remove any existing builds
+5. Run `jupyter-book build sioc209-2025-sp/`
 
-A fully-rendered HTML version of the book will be built in `sioc209-2024-sp/_build/html/`.
+A fully-rendered HTML version of the book will be built in `sioc209-2025-sp/_build/html/`.
 
 ### Hosting the book
 
@@ -30,8 +30,8 @@ The slides require a RISE which needs an older version of Jupyter Notebook. To b
 2. Run `conda create -n <sio209_dev> -c conda-forge python=3.10 xarray netcdf4 cartopy jupyter-book rise jupyter_contrib_nbextensions notebook==6.5.6`
 3. Activate your dev environment
 3. Run `pip install tensorflow-metal scikit-learn gpflow` inside that environment
-3. (Optional) Edit the slides source files located in the `sioc209-2024-sp/slides/` directory
-4. Run `jupyter nbconvert --to slides sioc209-2024-sp/slides/*.ipynb --reveal-prefix=reveal.js --SlidesExporter.reveal_scroll=True`
+3. (Optional) Edit the slides source files located in the `sioc209-2025-sp/slides/` directory
+4. Run `jupyter nbconvert --to slides sioc209-2025-sp/slides/*.ipynb --reveal-prefix=reveal.js --SlidesExporter.reveal_scroll=True`
 
 
 ## Contributors
