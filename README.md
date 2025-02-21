@@ -9,7 +9,7 @@ Course content and material for SIOC 209
 If you'd like to develop and/or build the Machine Learning for Geo and Environmental Science book, you should:
 
 1. Clone this repository
-2. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
+2. Run `pip install -r requirements.txt` (pip + jupyter notebook) or `conda install --yes --file requirements_jc.txt` (conda + jupyter lab) (it is recommended you do this within a virtual environment)
 3. (Optional) Edit the books source files located in the `sioc209-2025-sp/` directory
 4. Run `jupyter-book clean sioc209-2025-sp/` to remove any existing builds
 5. Run `jupyter-book build sioc209-2025-sp/`
